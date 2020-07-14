@@ -8,7 +8,7 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: #007587;
     @include heading-font;
   }
   .navbar-brand {
@@ -63,7 +63,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: #007587;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;

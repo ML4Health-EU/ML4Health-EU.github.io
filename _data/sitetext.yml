@@ -1,139 +1,216 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 
+    # text: It's Nice To Meet You
+    button: Overview
     buttonlink: "#services"
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Overview"
+    text: "In the recent years, precision Medicine (PM) has led to an improved approach for patient healthcare which promises the ability to diagnose and 
+          cure illnesses on an individual basis, and in a targeted way. The integration of different sets of data that originate from the same physical source 
+          extending from their genetic background to the environment and their lifestyle is the basis of the PM and leads to the more effective treatment with less 
+          adverse events and unnecessary costs. PM remains a promising field but is severely hampered by the necessary data access restrictions. 
+          Machine learning is an approach for knowledge/information extraction which has several successful applications in diagnosis and prevention (ref), 
+          prognosis and therapy decision making"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Objective 1"
+        desc: "Align and connect different national Precision Medicine initiatives and Rare Disease repositories, adhering both to the expected security and ethical requirements as well as the relevant national regulations, towards a unified query interface"
+        icon: fab fa-connectdevelop #find more at https://fontawesome.com/icons
+      - title: "Objective 2"
+        desc: "Specify a reusable protocol and reference implementation for making data models findable, accessible, interoperable and reproducible (FAIR) for humans and machines, aiming to support cross-repository queries and ML through data models rather than data itself"
+        icon: fas fa-file-invoice       
+      - title: "Objective 3"
+        desc: "Demonstrate the value and impact of the protocol through an application of a collective ML approach based on combined phenotypic and omics data across repositories, towards higher resolution patient stratification and outcome prediction"
+        icon: fa fa-user   
 
-portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+# portfolio:
+#     title: "Portfolio"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     section: portfolio
     
 
-timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+# timeline:
+#     title: "About" 
+#     text: "Lorem ipsum timeline"
+#     section: timeline
+#     events:
+#       - title: "Our Humble Beginnings"
+#         year: "2009-2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/1.jpg
+#         alt: 
+#         align: left
+#       - title: "An Agency is Born"
+#         year: "March 2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/2.jpg
+#         alt: 
+#         align: right
+#       - title: "Jekyll Theme is created"
+#         year: "2019"
+#         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+#         image: assets/img/timeline/3.jpg
+#         alt: image alt text
+#         #align: #default is left       
+#       - title: "Title"
+#         year: "2009-2011"
+#         desc: "Your description here, **Markdown** is fully supported."
+#         image: assets/img/timeline/4.jpg
+#         alt: 
+#         align: right
+#     end: "Be Part <br> of Our <br> Story!"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
+# about:
+#     title: "About Us"
+#     text: "our story"
+#     section: about
 
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+# clients:
+#     section: clients
+#     max-height: 100px
+#     horizontal-scrolling: "" #"yes/no"
+#     list:
+#       - title: "envato"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/envato.jpg
+#       - title: "designmodo"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/designmodo.jpg
+#       - title: "themeforest"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/themeforest.jpg
+#       - title: "Creative Market"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Participants"
+    text: "Members of the consortium"
+    subtext: Machine learning, collective learning, precision medicine, Chronic lymphocytic leukemia, lung cancer, Duchenne muscular dystrophy, Intellectual Disability, privacy-by-design
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Centre for Research and Technology Hellas"
+        role: "Research Centre"
+        image: assets/img/team/certh.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+          - url: https://www.certh.gr/root.en.aspx
+            icon: fas fa-link
+      - name: "Università Degli Studi di Padova"
+        role: "University"
+        image: assets/img/team/Padova.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+          - url: https://www.unipd.it/en/
+            icon: fas fa-link
+      - name: "Karolinska Institutet"
+        role: "Research Centre"
+        image: assets/img/team/Karolinska.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://ki.se/
+            icon: fas fa-link
+      - name: "University Hospital Heidelberg"
+        role: "University"
+        image: assets/img/team/Heidelberg.jpg
+        social:
+          - url: https://www.heidelberg-university-hospital.com/home/
+            icon: fas fa-link
+      - name: "European Molecular Biology Laboratory (for ELIXIR)"
+        role: "Research centre"
+        image: assets/img/team/elixir.jpg
+        social:
+          - url: https://elixir-europe.org/about-us/who-we-are/nodes/embl-ebi
+            icon: fas fa-link
+      - name: "Centre National de la Recherche Scientifique"
+        role: "Research Centre"
+        image: assets/img/team/cnrs.png
+        social:
+          - url: http://www.cnrs.fr/
+            icon: fas fa-link
+      - name: "Universitat Zurich"
+        role: "University"
+        image: assets/img/team/zurich.png
+        social:
+          - url: https://www.uzh.ch/de.html
+            icon: fas fa-link
+      - name: "Leiden University Medical Center"
+        role: "University"
+        image: assets/img/team/leiden.png
+        social:
+          - url: https://www.universiteitleiden.nl/en/medicine-lumc
+            icon: fas fa-link
+      - name: "Fundacio Centre de Regulacio Genomica"
+        role: "Research Centre"
+        image: assets/img/team/crg.png
+        social:
+          - url: https://www.crg.eu/
+            icon: fas fa-link
+      - name: "National Center for Scientific Research “Demokritos”"
+        role: "Research Centre"
+        image: assets/img/team/demokritos.png
+        social:
+          - url: https://www.iit.demokritos.gr/el/
+            icon: fas fa-link
+      - name: "Stichting Duchenne Data Foundation"
+        role: "Non profit organization"
+        image: assets/img/team/duchenne.jpg
+        social:
+          - url: https://www.duchennedatafoundation.org/
+            icon: fas fa-link
+      - name: "Munich Leukemia Laboratory"
+        role: "SME"
+        image: assets/img/team/mll.jpg
+        social:
+          - url: https://www.mll.com/en.html
+            icon: fas fa-link
+      - name: "Université Libre de Bruxelles”"
+        role: "University"
+        image: assets/img/team/ulb.png
+        social:
+          - url: https://www.ulb.be/
+            icon: fas fa-link
+      - name: "University of Tartu"
+        role: "University"
+        image: assets/img/team/tartu.jpg
+        social:
+          - url: https://www.ut.ee/en
+            icon: fas fa-link
+      - name: "Technical University of Munich"
+        role: "University"
+        image: assets/img/team/tum.jpg
+        social:
+          - url: https://www.tum.de/
+            icon: fas fa-link
+      - name: "Barcelona Supercomputing Center"
+        role: "Research Centre"
+        image: assets/img/team/BSC.jpg
+        social:
+          - url: https://www.bsc.es/
+            icon: fas fa-link
+      - name: "Athens Technology Center"
+        role: "SME"
+        image: assets/img/team/ATC.jpg
+        social:
+          - url: https://www.atc.gr/default.aspx?page=home
+            icon: fas fa-link
           
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: ""
     section: contact
     
 footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"  
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
